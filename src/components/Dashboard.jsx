@@ -125,6 +125,10 @@ export default class Dashboard extends Component {
                       >
                         <thead>
                           <tr>
+  
+                            {/* <th style={{ display: 'none' }} colSpan="13">Dòng ẩn</th>  */}
+  {/* <th></th> */}
+                            
                             <th style={{ width: "5%" }}>STT</th>
                             <th style={{ width: "5%" }}>Mã số</th>
                             <th style={{ width: "50%" }}>Tên chương trình</th>
@@ -144,6 +148,7 @@ export default class Dashboard extends Component {
                         </thead>
 
                         <tbody>
+                        
                           {programs?.map((item, key) => (
                             <tr key={key}>
                               <td>{key + 1}</td>

@@ -210,24 +210,24 @@ export default class Menu extends Component {
                         </p>
                         </a>
                         <ul class="list-unstyled flex-column pl-3 collapse" id="submenu4" aria-expanded="false">
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a href="/system/user_group" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Nhóm người dùng</p>
                                 </a>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <a href="/system/user" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Người dùng</p>
                                 </a>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a href="/system/login_log" className="nav-link">
                                 <i className="far fa-circle nav-icon" />
                                 <p>Nhật ký đăng nhập</p>
                                 </a>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <a href="/system/configuration" className="nav-link">
                                 <i className="far fa-circle nav-icon" />

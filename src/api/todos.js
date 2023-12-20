@@ -173,6 +173,14 @@ export const getProductOtherDTO = (id)  => {
     return axiosClient.get(`${END_POINT.PRODUCTOTHERDTO}/${id}`);
 }
 
+export const getCoquanquanlyBychuongtrinh = (id)  => {
+    return axiosClient.get(`${END_POINT.COQUANQUANLY}/${id}`);
+}
+
+export const delChuyengiaAPI = (id)  => {
+    return axiosClient.delete(`${END_POINT.CHUYENGIAS}/${id}`);
+}
+
 
 // export const getProgramsAPI = ()  => {
 //     return axiosClient.get(`${END_POINT.CHUONGTRINHS}`);

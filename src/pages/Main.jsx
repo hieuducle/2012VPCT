@@ -39,6 +39,7 @@ import EditNhiemVu from "./action/EditNhiemVu";
 import SChuyengia from "./searchby/Chuyengia";
 import SNhiemvu from "./searchby/Nhiemvu";
 import AddDuty from "./action/AddDuty";
+import SCoquanquanly from "./searchby/Coquanquanly";
 
 const Main = () => {
     return (
@@ -82,6 +83,8 @@ const Main = () => {
             <Route path="/action/editNhiemVu/:id" element={ <EditNhiemVu /> }></Route>
             <Route path="/search/chuyengia/:id" element={ <SChuyengia /> }></Route>
             <Route path="/search/nhiemvu/:id" element={ <SNhiemvu /> }></Route>
+            <Route path="/search/coquanquanly/:id" element={ <SCoquanquanly /> }></Route>
+            
             
             
         </Routes>
